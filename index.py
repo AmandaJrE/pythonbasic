@@ -1,7 +1,6 @@
-numeral = int(input('Par ou ímpar? '))
-resto = numeral % 2
+max = (input('Digite dois valores: '))
 
-if resto == 0: 
-    print('Número par')
-else:
-    print('Número ímpar')
+def max(x, y):
+    if x > y:
+        return x
+    return y
